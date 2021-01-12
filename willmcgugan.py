@@ -20,7 +20,7 @@ I'm a freelace software developer, living in [link=https://www.google.com/maps/p
 [green]Follow me on twitter [bold link=https://twitter.com/willmcgugan]@willmcgugan[/]"""
 
 panel = Panel.fit(
-    about, box=box.DOUBLE, border_style="blue", title="[b]Hi there 👋", width=60
+    about, box=box.DOUBLE, border_style="blue", title="[b]Hi there", width=60
 )
 
 console.print(Columns([panel, tree]))
