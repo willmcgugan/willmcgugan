@@ -15,7 +15,7 @@ full_stack_tree = tree.add("🔧 Full-stack developer")
 tree.add("📘 Author")
 
 about = """\
-I'm a freelace software developer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland. Other than open source software development, my passion would be [link=https://www.willmcgugan.com/blog/photography/]wildlife photography[/].
+I'm a freelance software developer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland. Other than open source software development, my passion would be [link=https://www.willmcgugan.com/blog/photography/]wildlife photography[/].
 
 [green]Follow me on twitter [bold link=https://twitter.com/willmcgugan]@willmcgugan[/]"""
 
