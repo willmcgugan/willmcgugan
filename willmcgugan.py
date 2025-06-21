@@ -15,7 +15,10 @@ python_tree.add("⭐ [link=https://github.com/textualize/textual]Textual")
 python_tree.add("⭐ [link=https://github.com/pyfilesystem/pyfilesystem2]PyFilesystem")
 python_tree.add("⭐ [link=https://github.com/wildfoundry/dataplicity-lomond]Lomond")
 full_stack_tree = tree.add("🔧 Full-stack developer")
-tree.add("📘 Author")
+tree.add(
+    "📘 [link=https://www.amazon.co.uk/Beginning-Game-Development-Python-Pygame/dp/1590598725]Author"
+)
+tree.add("📷 [link=https://www.willmcgugan.com/blog/photography/]Photographer[/]")
 
 about = """\
 I'm a software engineer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland.
