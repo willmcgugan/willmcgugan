@@ -6,16 +6,23 @@ from rich.tree import Tree
 
 console = Console(record=True, width=100)
 
-tree = Tree("🤓 [link=https://www.willmcgugan.com]Will McGugan", guide_style="bold cyan")
+tree = Tree(
+    "🤓 [link=https://willmcgugan.github.io/]Will McGugan", guide_style="bold cyan"
+)
 python_tree = tree.add("🐍 Python expert", guide_style="green")
-python_tree.add("⭐ [link=https://github.com/willmcgugan/rich]Rich")
+python_tree.add("⭐ [link=https://github.com/textualize/rich]Rich")
+python_tree.add("⭐ [link=https://github.com/textualize/textual]Textual")
 python_tree.add("⭐ [link=https://github.com/pyfilesystem/pyfilesystem2]PyFilesystem")
 python_tree.add("⭐ [link=https://github.com/wildfoundry/dataplicity-lomond]Lomond")
 full_stack_tree = tree.add("🔧 Full-stack developer")
 tree.add("📘 Author")
 
 about = """\
-I'm a freelance software developer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland. Other than open source software development, my passion would be [link=https://www.willmcgugan.com/blog/photography/]wildlife photography[/].
+I'm a software engineer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland.
+
+Probably best known for [link=https://github.com/textualize/rich]Rich[/] and [link=https://github.com/textualize/textual]Textual[/]. Two Python libraries that have been downloaded over 3 billion times between them. 🤯
+
+I'm currently taking a sabbatical, although I am still maintaining my projects. I'm not currently looking for work, although I could be tempted by the right offer.
 
 [green]Follow me on twitter [bold link=https://twitter.com/willmcgugan]@willmcgugan[/]"""
 
