@@ -20,7 +20,7 @@ tree.add("📘 Author")
 about = """\
 I'm a software engineer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland.
 
-Probably best known for [link=https://github.com/textualize/rich]Rich[/] and [link=https://github.com/textualize/textual]Textual[/]. Two Python libraries that have been downloaded over 3 billion times between them. 🤯
+Probably best known for [link=https://github.com/textualize/rich]Rich[/] and [link=https://github.com/textualize/textual]Textual[/]. Two Python libraries that have been downloaded over 3 billion times between them!
 
 I'm currently taking a sabbatical, although I am still maintaining my projects. I'm not currently looking for work, although I could be tempted by the right offer.
 
